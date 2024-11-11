@@ -5,7 +5,7 @@ pipeline {
         REPO_URL = 'https://github.com/riddhish143/Electronic-Mart.git'
         DOCKER_COMPOSE_FILE = 'docker-compose.yaml'
         GITHUB_CREDENTIALS = credentials('github-pat') // Reference the stored credential
-        AWS_PUBLIC_IP = '13.200.200.254' // Replace with your actual AWS instance public IP
+        AWS_PUBLIC_IP = '13.233.195.233' // Replace with your actual AWS instance public IP
     }
 
     stages {
